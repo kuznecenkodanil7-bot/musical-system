@@ -1,5 +1,5 @@
 {
-  "category.moderation_helper_gui": "Moderation Helper GUI",
+  "category.moderation_helper_gui.main": "Moderation Helper GUI",
   "key.moderation_helper_gui.open_stats": "Открыть статистику Moderation Helper",
   "key.moderation_helper_gui.stop_obs": "Остановить запись OBS"
 }
