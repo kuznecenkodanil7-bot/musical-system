@@ -11,7 +11,7 @@ base {
 }
 
 repositories {
-    // Fabric Maven and Maven Central are declared in settings.gradle.
+    // Repositories are declared in settings.gradle
 }
 
 dependencies {
@@ -23,6 +23,7 @@ dependencies {
 
 processResources {
     inputs.property 'version', project.version
+
     filesMatching('fabric.mod.json') {
         expand 'version': project.version
     }
